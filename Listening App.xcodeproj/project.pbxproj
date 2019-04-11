@@ -14,6 +14,8 @@
 		CE22FDE0225CBAA200FFE6CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE22FDDE225CBAA200FFE6CB /* LaunchScreen.storyboard */; };
 		CE22FDEB225CBAA200FFE6CB /* Listening_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE22FDEA225CBAA200FFE6CB /* Listening_AppTests.swift */; };
 		CE22FDF6225CBAA200FFE6CB /* Listening_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE22FDF5225CBAA200FFE6CB /* Listening_AppUITests.swift */; };
+		CE22FE08225F716400FFE6CB /* ListeningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE22FE07225F716400FFE6CB /* ListeningViewController.swift */; };
+		CE22FE0A225F734B00FFE6CB /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE22FE09225F734B00FFE6CB /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		CE22FDF1225CBAA200FFE6CB /* Listening AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Listening AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE22FDF5225CBAA200FFE6CB /* Listening_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Listening_AppUITests.swift; sourceTree = "<group>"; };
 		CE22FDF7225CBAA200FFE6CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE22FE07225F716400FFE6CB /* ListeningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListeningViewController.swift; sourceTree = "<group>"; };
+		CE22FE09225F734B00FFE6CB /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				CE22FDDC225CBAA200FFE6CB /* Assets.xcassets */,
 				CE22FDDE225CBAA200FFE6CB /* LaunchScreen.storyboard */,
 				CE22FDE1225CBAA200FFE6CB /* Info.plist */,
+				CE22FE07225F716400FFE6CB /* ListeningViewController.swift */,
+				CE22FE09225F734B00FFE6CB /* File.swift */,
 			);
 			path = "Listening App";
 			sourceTree = "<group>";
@@ -256,6 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE22FE08225F716400FFE6CB /* ListeningViewController.swift in Sources */,
+				CE22FE0A225F734B00FFE6CB /* File.swift in Sources */,
 				CE22FDD8225CBA9500FFE6CB /* ViewController.swift in Sources */,
 				CE22FDD6225CBA9500FFE6CB /* AppDelegate.swift in Sources */,
 			);
