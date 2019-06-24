@@ -5,8 +5,10 @@ class answerViewController: UIViewController {
     var player2: AVAudioPlayer!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    
+
+        
+        
+
     
         let sound = Bundle.main.path(forResource: "Correct-answer", ofType: "mp3")
         do {
@@ -31,6 +33,7 @@ class answerViewController: UIViewController {
 
     
     
+    
     @IBOutlet weak var Edit1: UITextField!
 
     
@@ -50,13 +53,7 @@ player2.play()
         }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        
+    
         self.view.endEditing(true)
-}
-    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-        // キーボードを閉じる
-        textField.resignFirstResponder()
-        Edit1.text = textField.text
-        return true
     }
 }
