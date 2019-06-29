@@ -6,7 +6,7 @@ class quiz2ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+        navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
         let sound = Bundle.main.path(forResource: "クイズ2 (online-audio-converter.com)", ofType: "mp3")
         do {
             audioPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: sound!))

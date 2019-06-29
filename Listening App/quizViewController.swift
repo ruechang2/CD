@@ -3,10 +3,11 @@ import AVFoundation
 class quizViewController: UIViewController {
     var audioPlayer: AVAudioPlayer!
 
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
+ 
+        override func viewDidLoad() {
+            super.viewDidLoad()
+            let BarButtonItemAppearance = UIBarButtonItem.appearance()
+            BarButtonItemAppearance.setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.clear], for: .normal)
 
         let sound = Bundle.main.path(forResource: "1", ofType: "mp3")
         do {

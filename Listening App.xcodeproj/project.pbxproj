@@ -17,6 +17,9 @@
 		CE22FDF6225CBAA200FFE6CB /* Listening_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE22FDF5225CBAA200FFE6CB /* Listening_AppUITests.swift */; };
 		CE22FE18226759FE00FFE6CB /* YourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE22FE17226759FE00FFE6CB /* YourViewController.swift */; };
 		CE7A4D332279765300DD75CF /* quizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7A4D322279765300DD75CF /* quizViewController.swift */; };
+		CEBA545F22C7A74F0098F8FB /* 10-6, Matsugaya 3Chome (online-audio-converter.com).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEBA545E22C7A74E0098F8FB /* 10-6, Matsugaya 3Chome (online-audio-converter.com).mp3 */; };
+		CEBA546122C7A7D90098F8FB /* quiz3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBA546022C7A7D90098F8FB /* quiz3ViewController.swift */; };
+		CEBA546322C7AC7B0098F8FB /* answer3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBA546222C7AC7B0098F8FB /* answer3ViewController.swift */; };
 		CECAA78322A7D66900B33DF8 /* 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CECAA78222A7D66900B33DF8 /* 1.mp3 */; };
 		CECAA78522AFDC7D00B33DF8 /* answerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECAA78422AFDC7D00B33DF8 /* answerViewController.swift */; };
 		CECAA78722B5112D00B33DF8 /* fail-buzzer-01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CECAA78622B5112D00B33DF8 /* fail-buzzer-01.mp3 */; };
@@ -62,6 +65,9 @@
 		CE22FDF7225CBAA200FFE6CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE22FE17226759FE00FFE6CB /* YourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourViewController.swift; sourceTree = "<group>"; };
 		CE7A4D322279765300DD75CF /* quizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizViewController.swift; sourceTree = "<group>"; };
+		CEBA545E22C7A74E0098F8FB /* 10-6, Matsugaya 3Chome (online-audio-converter.com).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "10-6, Matsugaya 3Chome (online-audio-converter.com).mp3"; sourceTree = "<group>"; };
+		CEBA546022C7A7D90098F8FB /* quiz3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quiz3ViewController.swift; sourceTree = "<group>"; };
+		CEBA546222C7AC7B0098F8FB /* answer3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = answer3ViewController.swift; sourceTree = "<group>"; };
 		CECAA78222A7D66900B33DF8 /* 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1.mp3; sourceTree = "<group>"; };
 		CECAA78422AFDC7D00B33DF8 /* answerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = answerViewController.swift; sourceTree = "<group>"; };
 		CECAA78622B5112D00B33DF8 /* fail-buzzer-01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "fail-buzzer-01.mp3"; sourceTree = "<group>"; };
@@ -148,12 +154,15 @@
 				CE22FE17226759FE00FFE6CB /* YourViewController.swift */,
 				CECAA78422AFDC7D00B33DF8 /* answerViewController.swift */,
 				CE7A4D322279765300DD75CF /* quizViewController.swift */,
+				CEBA546222C7AC7B0098F8FB /* answer3ViewController.swift */,
 				CECAA78222A7D66900B33DF8 /* 1.mp3 */,
+				CEBA546022C7A7D90098F8FB /* quiz3ViewController.swift */,
 				CECAA78E22BE772D00B33DF8 /* answer2ViewController.swift */,
 				CECAA78622B5112D00B33DF8 /* fail-buzzer-01.mp3 */,
 				CECAA78822B5114600B33DF8 /* Correct-answer.mp3 */,
 				CECAA78A22BE761000B33DF8 /* クイズ2 (online-audio-converter.com).mp3 */,
 				CECAA78C22BE771500B33DF8 /* quiz2ViewController.swift */,
+				CEBA545E22C7A74E0098F8FB /* 10-6, Matsugaya 3Chome (online-audio-converter.com).mp3 */,
 			);
 			path = "Listening App";
 			sourceTree = "<group>";
@@ -289,6 +298,7 @@
 				CECAA78922B5114600B33DF8 /* Correct-answer.mp3 in Resources */,
 				CE22FDDD225CBAA200FFE6CB /* Assets.xcassets in Resources */,
 				CE22FDDB225CBA9500FFE6CB /* Main.storyboard in Resources */,
+				CEBA545F22C7A74F0098F8FB /* 10-6, Matsugaya 3Chome (online-audio-converter.com).mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +376,9 @@
 				CECAA78F22BE772D00B33DF8 /* answer2ViewController.swift in Sources */,
 				CECAA78522AFDC7D00B33DF8 /* answerViewController.swift in Sources */,
 				CECAA78D22BE771500B33DF8 /* quiz2ViewController.swift in Sources */,
+				CEBA546322C7AC7B0098F8FB /* answer3ViewController.swift in Sources */,
 				CE7A4D332279765300DD75CF /* quizViewController.swift in Sources */,
+				CEBA546122C7A7D90098F8FB /* quiz3ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
